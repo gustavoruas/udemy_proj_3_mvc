@@ -16,23 +16,29 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>response form</title>
 </head>
 <body>
 
-	
+
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<h3> Response from form submit</h3>
-				<p>${param.studentName}</p> <br>
-				<p> <a href="showForm">Go Back</a> </p>
+				<h3>Response from form submit</h3>
+				<p>${param.studentName}</p>
+				<br>
+				<p>
+					<a href="showForm">Go Back</a>
+				</p>
 			</div>
 		</div>
 
 	</div>
 
+	<div class="container">Returning value from model :
+		${processedMessage}</div>
 
 </body>
 </html>
